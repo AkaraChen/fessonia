@@ -18,12 +18,6 @@ declare class FFmpegCommand extends EventEmitter {
     addInput(input: FFmpegInput): void;
     addOutput(output: FFmpegOutput): void;
 
-    /**
-     * Execute the command and return a promise for the output
-     *
-     * @throws {FFmegError}
-     */
-    execute(): Promise<{ stderr: string, stdout: string }>
     /** Get inputs on the FFmpegCommand object */
     inputs(): FFmpegInput[];
     /** Get the currently buffered log data from the ffmpeg run */
@@ -32,8 +26,6 @@ declare class FFmpegCommand extends EventEmitter {
     logLines(n: number): string[];
      /** Get outputs on the FFmpegCommand object */
     outputs(): FFmpegOutput[];
-    /** Spawn a child process to execute the command and return the child process */
-    spawn(emitEvents?: boolean): ChildProcessWithoutNullStreams;
     /** Generate the command representation of the command */
     toCommand(): { command: string, args: string[] };
     toString(): string;
