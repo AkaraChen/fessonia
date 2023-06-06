@@ -7,11 +7,13 @@
     <list default="true" id="cc5ccf4e-f5ea-47ab-9729-0791f0c19439" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ffmpeg_command.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ffmpeg_command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ffmpeg_input.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ffmpeg_input.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ffmpeg_option.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ffmpeg_option.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ffmpeg_output.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ffmpeg_output.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ffmpeg_stream_specifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ffmpeg_stream_specifier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/filter_chain.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filter_chain.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/filter_graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filter_graph.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/filter_node.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filter_node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ffmpeg_command.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/ffmpeg_command.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/ffmpeg-error-logbuffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/ffmpeg-error-logbuffer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686035631790</updated>
-      <workItem from="1686035632863" duration="2463000" />
+      <workItem from="1686035632863" duration="4272000" />
     </task>
     <servers />
   </component>
