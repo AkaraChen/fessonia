@@ -9,9 +9,9 @@
     "access": "public"
   },
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/c8 --reporter=clover --reporter=lcov --reporter=text ./node_modules/.bin/mocha --reporter spec --level info test/*.test.js",
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/c8 --reporter=clover --reporter=lcov --reporter=text ./node_modules/.bin/mocha --reporter spec --level info test/*.test.js",
     "lint": "./node_modules/.bin/eslint ./{lib,test}/**/*.js",
-    "watch": "NODE_ENV=test ./node_modules/.bin/c8 --reporter=clover --reporter=lcov --reporter=text ./node_modules/.bin/mocha --reporter spec --level info --watch test/*.test.js",
+    "watch": "cross-env NODE_ENV=test ./node_modules/.bin/c8 --reporter=clover --reporter=lcov --reporter=text ./node_modules/.bin/mocha --reporter spec --level info --watch test/*.test.js",
     "generate-docs": "scripts/generate-docs.sh",
     "add-contributor": "./node_modules/.bin/all-contributors add",
     "check-contributors": "./node_modules/.bin/all-contributors check",
@@ -52,6 +52,7 @@
     "chai": "^4.2.0",
     "chai-almost": "^1.0.1",
     "chai-as-promised": "^7.1.1",
+    "cross-env": "^7.0.3",
     "eslint": "^8.9.0",
     "jsdoc": "^3.6.10",
     "mocha": "^9.2.0",
