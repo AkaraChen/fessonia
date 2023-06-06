@@ -1,5 +1,5 @@
 {
-  "name": "fessonia",
+  "name": "@akrc/fessonia",
   "version": "2.2.2",
   "description": "A node module easing the burden of automating ffmpeg from node.js",
   "main": "index.js",
